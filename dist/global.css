@@ -1,0 +1,365 @@
+body{
+    background: url("https://th.bing.com/th/id/OIP.N6gBdooRJcWBoYvWNHnpCwHaEo?rs=1&pid=ImgDetMain");
+    
+}
+
+main{
+    padding-left: 45px;
+}
+
+.hero{
+    padding: 20px;
+    margin-top: 65px;
+    
+}
+
+.lists li{
+    background: rgba(8, 0, 0, 0.829);
+    border-radius: 40px;
+    padding: 10px;
+    transition: .4s;
+}
+
+.lists li:hover{
+    background: rgb(250, 249, 249);
+    box-shadow:0 0 5px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0) ;
+    color: black;
+}
+
+.list-items{
+    padding-right: 123px;
+}
+
+
+.rightSide{
+    position: relative;
+    left: 25%;
+    
+    
+}
+
+.rightSide::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(167, 159, 159, 0.349);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.rightside p{
+    padding: 20px;
+}
+
+.rightSide img, .rightSide p{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+}
+
+.rightSide img{
+    width: 320px;
+    align-items: center;
+    justify-items: center;
+}
+
+.rightSide .btn{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.BTN{
+    background-color: rgba(8, 0, 0, 0.829);
+    border-radius: 10px;
+    width: 120px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+   padding: 5px;
+   transition: 0.5s ;
+}
+
+/* .BTN a{
+    justify-items: center;
+    align-items: center;
+
+} */
+
+.BTN:hover{
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0);
+}
+
+.buttonn{
+    background: rgb(248, 147, 23);
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    transition: 0.5s;
+    margin-top: -190px;
+    font-size: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.buttonn:hover{
+    background: white;
+    color: black;
+}
+
+.welcome{
+    background: rgba(77, 77, 77, 0.349);
+    width: 190px;
+    border-radius: 20px;
+    margin-top: -94px;
+    align-items: center;
+}
+
+.welcome img{
+   border-radius: 50%;
+   width: 50px;
+   padding: 10px;
+}
+
+.welcome p{
+    padding: 5px;
+    text-align: center;
+}
+
+.market{
+    padding: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.market h2{
+    font-size: 40px;
+
+}
+
+
+.product1{
+    background: rgba(77, 77, 77, 0.349);
+    border-radius: 50px;
+    margin-top: 30px;
+    padding-top: 25px;
+    
+    
+}
+
+.product1 img{
+    clip-path: circle();
+    width: 40%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.market-text{
+    margin-top: -320px;
+    margin-left: 450px;
+    padding: 45px 0 45px 80px;
+    text-align: left;
+    
+}
+
+.market-text h2{
+    padding-bottom: 8px;
+}
+
+.market-text p{
+    font-size: 20px;
+}
+
+.market-text h3{
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+.market-text button{
+    margin-top: 5px;
+}
+
+.product2{
+    background: rgba(77, 77, 77, 0.349);
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 0 0 20px;
+}
+
+
+.market-text2{
+    text-align: left;
+    margin-top: 70px;
+    padding: 40px 50px 0 40px;
+
+}
+
+
+.market-text2 p{
+    font-size: 20px;
+}
+
+.market-text2 h3{
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+.image2{
+    clip-path: circle();
+    width: 40%;
+    margin-left: 590px;
+    margin-top: -195px;   
+}
+
+.cardSection h2{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    margin-top: 23px;
+}
+
+.cardSection{
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    background: rgba(77, 77, 77, 0.349);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0);
+    transform: rotateY(10deg);
+}
+
+.card h3{
+    font-size: 30px;
+    padding: 5px 0;
+    color: white;
+}
+
+.card img{
+    width: 70%;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.card button{
+    margin-top: 20px;
+}
+
+.aboutUs{
+    margin-top: 65px;
+}
+
+.aboutUs h2{
+    padding-bottom: 35px;
+}
+
+.about2 img{
+    border-radius: 40px;
+    width: 550px;
+}
+
+.rev{
+    margin: 50px;
+    padding-top: 40px;
+
+    
+}
+
+.review h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    padding-top: 45px;
+}
+
+.reviews{
+    display: flex;
+    background: rgba(77, 77, 77, 0.349);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 20px 20px ;
+    max-width: 600px;
+    border-radius: 40px;
+    width: 400px;
+    color: #f7f0f0;
+}
+
+.review-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.review-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-header{
+    display: flex;
+    align-items: center;
+}
+
+.review-name{
+    margin: 0;
+    margin-right: 10px;
+}
+
+.review-stars{
+    color: gold;
+}
+
+.review-text{
+    margin-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 75px;
+    padding-top: 45px;
+    background: rgba(77, 77, 77, 0.349);
+    max-width: 95%;
+    border-radius: 45px;
+}
+
+.quick-links h2{
+    font-size: 25px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.quick-links ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.explanation img{
+    border-radius: 40px;
+    width: 100px;
+    padding: 20px;
+}
+
+.explanation{
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+}
+
